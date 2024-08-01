@@ -5,3 +5,26 @@ body {
 h1, h2 {
     text-align: center;
 }
+.playlist li {
+    margin: 10px 0;
+	list-style-type: none;
+
+}
+.playlist a {
+    text-decoration-line: none;
+    color: #000;
+}
+
+.player_one, .player_two {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+
+video, audio {
+    width: 100%;
+    border-radius: 10px;
+}
